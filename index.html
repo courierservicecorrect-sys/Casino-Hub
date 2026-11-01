@@ -7,14 +7,6 @@
     <meta name="description" content="Find the top-rated online casinos and sweepstakes sites for 2025. Claim exclusive no-deposit bonuses, free sweeps coins, and read detailed feature reviews.">
 
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX'); // REPLACE 'G-XXXXXXXXXX'
-    </script>
 
     <script>
         tailwind.config = {
@@ -197,10 +189,10 @@
                 Discover the Best Sweeps Cash & Social Casinos for 2025
             </h2>
             <p class="text-lg text-gray-300 mb-4">
-                Welcome to the ultimate guide for finding secure and highly-rated online casinos. Our experts have rigorously tested and ranked the top **15 casinos** based on game selection, bonus value, payout speed, and customer support. Whether you're looking for the biggest no-deposit bonus or a site with fast crypto redemptions, this list has you covered.
+                Welcome to the ultimate guide for finding secure and highly-rated online casinos. Our experts have rigorously tested and ranked the top **15 casinos** based on game selection, bon[...]
             </p>
             <p class="text-base text-gray-400">
-                The most important factor we consider is the **value of the free Sweeps Coins (SC)** and Gold Coins (GC) offered to new players. Below, you'll find the best available welcome bonuses, including free SC you can redeem for real cash prizes.
+                The most important factor we consider is the **value of the free Sweeps Coins (SC)** and Gold Coins (GC) offered to new players. Below, you'll find the best available welcome bonu[...]
             <h1 class="text-4xl mt-2 font-bold text-primary-gold">
                 Click On Any Recommendation To Claim Your Exclusive Offer Now!
             </p>
@@ -211,7 +203,7 @@
 
         <footer class="mt-12 pt-6 border-t border-gray-700 text-center text-xs text-gray-400">
             <p class="mb-2">
-                <strong class="text-primary-red">Disclaimer:</strong> Always check local laws and play responsibly. The content on this page reflects personal opinions and is for informational purposes only.
+                <strong class="text-primary-red">Disclaimer:</strong> Always check local laws and play responsibly. The content on this page reflects personal opinions and is for informational pu[...]
             </p>
             <p>&copy; 2025 Your Casino Picks</p>
         </footer>
@@ -230,7 +222,7 @@
                 stars += `<svg class="w-5 h-5 text-primary-gold fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>`;
             }
             if (halfStar) {
-                stars += `<svg class="w-5 h-5 text-primary-gold fill-current" viewBox="0 0 24 24"><path d="M12 2l-2.61 5.92L2 9.24l5.46 4.73L5.82 21l6.18-3.72V2z" fill="#FFD700"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2v15.27z" fill="transparent"/></svg>`;
+                stars += `<svg class="w-5 h-5 text-primary-gold fill-current" viewBox="0 0 24 24"><path d="M12 2l-2.61 5.92L2 9.24l5.46 4.73L5.82 21l6.18-3.72V2z" fill="#FFD700"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" fill="none"/></svg>`;
             }
             for (let i = 0; i < emptyStars; i++) {
                 stars += `<svg class="w-5 h-5 text-gray-600 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>`;
@@ -254,14 +246,14 @@
                 // GA4 Tracking Event
                 const tracking_event = `gtag('event', 'affiliate_click', {'casino_name': '${safeName}', 'position': ${position}});`;
 
-                card.className = `p-6 md:p-8 ${index === 0 ? 'border-4 border-primary-gold' : 'border border-gray-700'} bg-card-bg rounded-xl shadow-2xl transition duration-300 hover:shadow-primary-gold/30`;
+                card.className = `p-6 md:p-8 ${index === 0 ? 'border-4 border-primary-gold' : 'border border-gray-700'} bg-card-bg rounded-xl shadow-2xl transition duration-300 hover:shadow-prima[...]
 
                 // Conditional rendering for the Features section
                 const featuresSection = casino.features.length > 0 ? `
                     <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 text-sm text-gray-200">
                         ${casino.features.map(feature => `
                             <span class="flex items-center bg-dark-bg p-2 rounded-lg">
-                                <svg class="w-4 h-4 text-green-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <svg class="w-4 h-4 text-green-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stro[...]
                                 ${feature}
                             </span>
                         `).join('')}
@@ -282,7 +274,7 @@
                         
                         <a href="${casino.url}" target="_blank" rel="noopener noreferrer" 
                            onclick="${tracking_event}"
-                           class="cta-button w-full md:w-auto px-6 py-3 text-lg font-bold text-dark-bg bg-primary-gold rounded-full text-center hover:bg-yellow-400 focus:outline-none focus:ring-4 focus:ring-primary-gold/50 uppercase tracking-wider">
+                           class="cta-button w-full md:w-auto px-6 py-3 text-lg font-bold text-dark-bg bg-primary-gold rounded-full text-center hover:bg-yellow-400 focus:outline-none focus:ring-4[...]
                             Visit Site & Claim Bonus
                         </a>
                     </div>
